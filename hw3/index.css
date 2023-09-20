@@ -1,0 +1,56 @@
+/* Стили для контейнера */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Горизонтальное центрирование */
+    align-items: center; /* Вертикальное центрирование */
+    gap: 20px;
+    padding: 20px;
+    margin-top: 50px; /* Отступ сверху */
+  }
+  
+  /* Стили для блока с верхними карточками */
+  .top-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Горизонтальное центрирование */
+    align-items: center; /* Вертикальное центрирование */
+    width: 100%;
+  }
+  
+  /* Стили для блока с нижними карточками */
+  .bottom-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Горизонтальное центрирование */
+    align-items: center; /* Вертикальное центрирование */
+    width: 100%;
+  }
+  
+  /* Стили для карточки */
+  .card {
+    width: 200px;
+    height: 300px;
+    text-align: center;
+    border: 2px solid #ccc;
+    padding: 10px;
+    background-color: #f5f5f5;
+    margin: 20px; /* отступы между карточками */
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  h2 {
+    font-size: 20px;
+    margin: 10px 0;
+  }
+  
+  p {
+    font-size: 14px;
+    color: #333;
+  }
+  
+  
