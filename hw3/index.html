@@ -4,41 +4,174 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="index.css" />
   </head>
-
   <body>
-    <div class="container">
-      <div class="card">
-        <img src="tractor.png" alt="tractor" width="200" height="200" />
-        <h2>Tractor</h2>
-        <p>blue tractor</p>
-      </div>
-      <div class="card">
-        <img src="tractor.png" alt="tractor" width="200" height="200" />
-        <h2>Tractor</h2>
-        <p>blue tractor</p>
-      </div>
-      <div class="card">
-        <img src="tractor.png" alt="tractor" width="200" height="200" />
-        <h2>Tractor</h2>
-        <p>blue tractor</p>
-      </div>
-      <div class="card">
-        <img src="tractor.png" alt="tractor" width="200" height="200" />
-        <h2>Tractor</h2>
-        <p>blue tractor</p>
-      </div>
-      <div class="card">
-        <img src="tractor.png" alt="tractor" width="200" height="200" />
-        <h2>Tractor</h2>
-        <p>blue tractor</p>
-      </div>
-      <div class="card">
-        <img src="tractor.png" alt="tractor" width="200" height="200" />
-        <h2>Tractor</h2>
-        <p>blue tractor</p>
+    <div class="container-1">
+      <div class="box1">1</div>
+      <div class="box2">2</div>
+    </div>
+
+    <div class="container-2">
+      <div class="box1">1</div>
+      <div class="s">
+        <div class="box2">2</div>
+        <div class="box3">3</div>
+        <div class="box4">4</div>
+        <div class="box5">5</div>
       </div>
     </div>
+
+    <div class="container-3">
+      <div class="box1">1</div>
+      <div class="box2">2</div>
+      <div class="b">
+        <div class="box3">3</div>
+        <div class="box4">4</div>
+      </div>
+    </div>
+
+    <style>
+      .container-1 {
+        border: 5px solid red;
+        height: 100px;
+        .box1 {
+          height: 100px;
+          width: 100px;
+          background-color: coral;
+          color: #fff;
+          text-align: center;
+          font-size: 30px;
+          float: left;
+        }
+        .box2 {
+          height: 100px;
+          width: 100px;
+          background-color: coral;
+          color: #fff;
+          text-align: center;
+          font-size: 30px;
+          float: right;
+        }
+      }
+      .container-2 {
+        flex-direction: column-reverse;
+        margin-top: 40px;
+        border: 5px solid red;
+        height: 100px;
+
+        .box1 {
+          height: 100px;
+          width: 100px;
+          background-color: coral;
+          color: #fff;
+          text-align: center;
+          font-size: 30px;
+          order: 1;
+          justify-content: left;
+          float: left;
+        }
+        .s {
+          display: flex;
+          flex-direction: row-reverse;
+        }
+
+        .box2 {
+          height: 100px;
+          width: 100px;
+          background-color: coral;
+          color: #fff;
+          text-align: center;
+          font-size: 30px;
+          order: 5;
+          justify-content: right;
+          float: right;
+        }
+        .box3 {
+          height: 100px;
+          width: 100px;
+          background-color: coral;
+          color: #fff;
+          text-align: center;
+          font-size: 30px;
+          order: 4;
+
+          justify-content: right;
+          float: right;
+        }
+        .box4 {
+          height: 100px;
+          width: 100px;
+          background-color: coral;
+          color: #fff;
+          text-align: center;
+          font-size: 30px;
+          order: 3;
+          justify-content: right;
+          float: right;
+        }
+        .box5 {
+          height: 100px;
+          width: 100px;
+          background-color: coral;
+          color: #fff;
+          text-align: center;
+          font-size: 30px;
+          order: 2;
+          justify-content: right;
+          float: right;
+        }
+      }
+      .container-3 {
+        margin-top: 40px;
+        flex-direction: column-reverse;
+        border: 5px solid red;
+        height: 100px;
+
+        .box1 {
+          height: 100px;
+          width: 100px;
+          background-color: coral;
+          color: #fff;
+          text-align: center;
+          font-size: 30px;
+          float: left;
+        }
+        .box2 {
+          height: 100px;
+          width: 100px;
+          background-color: coral;
+          color: #fff;
+          text-align: center;
+          font-size: 30px;
+          float: left;
+        }
+        .b {
+          display: flex;
+          flex-direction: row-reverse;
+        }
+        .box3 {
+          height: 100px;
+          width: 100px;
+          background-color: coral;
+          color: #fff;
+          text-align: center;
+          font-size: 30px;
+          justify-content: right;
+          order: 2;
+          float: right;
+        }
+        .box4 {
+          height: 100px;
+          width: 100px;
+          background-color: coral;
+          color: #fff;
+          text-align: center;
+          font-size: 30px;
+          justify-content: right;
+          order: 1;
+          float: right;
+        }
+      }
+    </style>
   </body>
 </html>
