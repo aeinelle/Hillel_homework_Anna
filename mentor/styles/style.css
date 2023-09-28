@@ -1,0 +1,85 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.clearfix {
+  clear: both;
+}
+
+/* Intro */
+
+.intro {
+  background-color: #3f3d56;
+  padding: 50px 0 150px;
+}
+
+.bg-header {
+  background-image: url("../images/Vector.png");
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  max-width: 1600px;
+  padding-bottom: 200px;
+  margin: 0 auto;
+}
+
+.logo {
+  float: left;
+  color: #00bfa6;
+  font-size: 24px;
+}
+
+.logo-bold {
+  font-weight: bold;
+}
+
+.nav-list {
+  float: right;
+}
+
+.nav-item {
+  display: inline-block;
+  margin-left: 50px;
+}
+
+.nav-link {
+  color: #00bfa6;
+  font-size: 24px;
+}
+
+.intro-header {
+  font-size: 64px;
+  color: #fff;
+  margin-top: 120px;
+  font-weight: bold;
+}
+
+.intro-text {
+  color: grey;
+  font-size: 18px;
+  margin-top: 30px;
+}
+
+.intro-button-group {
+  margin-top: 50px;
+}
+
+.find-tutors-btn,
+.sing-up-btn {
+  font-size: 18px;
+  color: #fff;
+  font-weight: bold;
+  padding: 20px;
+  display: inline-block;
+  border-radius: 20px;
+}
+
+.find-tutors-btn {
+  background-color: #00bfa6;
+  margin-right: 20px;
+}
+
+.sing-up-btn {
+  border: 3px solid #fff;
+  padding: 17px;
+}

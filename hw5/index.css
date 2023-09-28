@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed&display=swap');
+
+
+.intro { 
+    background-color: #EEEFF1;
+    max-width: 1200px;
+    height: 500px; 
+    margin: 0 auto;
+} 
+.container {
+   padding: 30px 30px 30px 100px;
+}
+.nav-list {
+    background-color: #EEEFF1;
+}
+.item {
+    margin-right: 30px;
+    display: inline-block;
+}
+.item-link {
+    color: #000;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
+.item-link-active {
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #34547A;
+}
+.offer-div {
+  display: block;
+  padding-left: 100px;
+  padding-top: 89px;
+}
+.offer_title {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+.offer__description {
+    padding-top: 50px;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    color: #727272;
+}
+.button {
+  display: block;
+  width: 180px;
+  height: 50px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  margin-left: 100px;
+  margin-top: 50px;
+  padding-top: 18px;
+  background: #34547A;
+  color: #EEEFF1;
+}
+.about-me {
+    background: #F9F9F9;
+    max-width: 1200px;
+    height: 250px; 
+    margin: 0 auto;
+}
+.block1 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 80px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.about__description {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 25px;
+    font-size: 15px;
+    color: #727272;
+}
+.projects {
+    display: block;
+    background: #34547A;
+    max-width: 1200px;
+    height: 200px; 
+    margin: 0 auto;
+}
+.list {
+    display: inline-block; 
+    padding-top: 60px;
+    padding-left: 15px;
+    margin-left: 55px;
+}
+.fourty {
+    display: inline;
+    float: right;
+    padding-left: 20px;
+    color: #FFF;
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+   
+}
+.plus {
+    font-size: 20px;
+    font-weight: bold;
+}
+.how-do-i-work {
+    background-color: #EEEFF1;
+    max-width: 1200px;
+    height: 700px; 
+    margin: 0 auto;
+}
+.block2 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 80px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.how-do {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 25px;
+    font-size: 15px;
+    color: #727272;
+}
+.vid {
+    display: block;
+    margin: 40px auto;
+    width: 750px;
+    height: 400px;
+}
+.copyright {
+    display: block;
+    background: #34547A;
+    max-width: 1200px;
+    height: 100px; 
+    margin: 0 auto;
+}
+.john {
+    font-family: 'Roboto', sans-serif;
+    display: block;
+    padding-top: 40px;
+    color: #FFF;
+    padding-left: 55px;
+}
+.smith {
+    font-size: 16px;
+    font-weight: bold;
+}
