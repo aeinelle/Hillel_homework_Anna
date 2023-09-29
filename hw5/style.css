@@ -3,13 +3,15 @@
 
 .intro { 
     background-color: #EEEFF1;
-    max-width: 1200px;
-    height: 500px; 
     margin: 0 auto;
-} 
-.container {
-   padding: 30px 30px 30px 100px;
+    padding: 0 auto;
 }
+    .container {
+        margin: auto;
+        padding: 30px;
+        width: 1200px;
+     }
+
 .nav-list {
     background-color: #EEEFF1;
 }
@@ -28,6 +30,11 @@
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
     color: #34547A;
+}
+.offer {
+    margin: auto;
+    padding: 30px;
+    width: 1200px;
 }
 .offer-div {
   display: block;
@@ -57,11 +64,11 @@
   background: #34547A;
   color: #EEEFF1;
 }
+
 .about-me {
-    background: #F9F9F9;
-    max-width: 1200px;
-    height: 250px; 
-    margin: 0 auto;
+    margin: auto;
+    padding: 30px;
+    width: 1200px;
 }
 .block1 {
     text-align: center;
@@ -77,25 +84,31 @@
     font-size: 15px;
     color: #727272;
 }
-.projects {
-    display: block;
+.cont {
     background: #34547A;
-    max-width: 1200px;
-    height: 200px; 
     margin: 0 auto;
+    padding: 0 auto;;
+}
+.projects {
+        margin: auto;
+        padding: 30px;
+        width: 1200px;
+    /* max-height: 200px; */
 }
 .list {
     display: inline-block; 
-    padding-top: 60px;
+    margin-left: 40px;
+    /* padding-top: 60px;
     padding-left: 15px;
-    margin-left: 55px;
+    margin-left: 55px; */
 }
 .fourty {
-    display: inline;
-    float: right;
-    padding-left: 20px;
+    display: inline-block;
+    /* float: right; */
+    margin-left: 40px;
+    /* padding-left: 50px; */
     color: #FFF;
-    margin-top: 10px;
+    /* margin-top: 10px; */
     font-family: 'Roboto', sans-serif;
    
 }
@@ -103,11 +116,21 @@
     font-size: 20px;
     font-weight: bold;
 }
-.how-do-i-work {
+.how {
     background-color: #EEEFF1;
-    max-width: 1200px;
-    height: 700px; 
     margin: 0 auto;
+    padding: 0 auto;
+}
+.work {
+    margin: auto;
+    padding: 30px;
+    width: 1200px;
+}
+.how-do-i-work {
+    display: inline-block;
+    margin: auto;
+    padding: 30px;
+    width: 1200px;
 }
 .block2 {
     text-align: center;
@@ -120,25 +143,33 @@
     text-align: center;
     font-family: 'Roboto', sans-serif;
     padding-top: 25px;
+    padding-bottom: 30px;
     font-size: 15px;
     color: #727272;
 }
 .vid {
-    display: block;
-    margin: 40px auto;
+    /* display: block;
+    margin: 40px auto; */
+    /* padding-left: 230px; */
+    padding: auto;
+    margin-left: 180px;
+    margin-bottom: 50px;
     width: 750px;
     height: 400px;
 }
 .copyright {
-    display: block;
     background: #34547A;
-    max-width: 1200px;
-    height: 100px; 
     margin: 0 auto;
+    padding: 0 auto;
+}
+.fot {
+    margin: auto;
+    padding: 30px;
+    width: 1200px;
+
 }
 .john {
     font-family: 'Roboto', sans-serif;
-    display: block;
     padding-top: 40px;
     color: #FFF;
     padding-left: 55px;
