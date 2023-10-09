@@ -2,8 +2,8 @@
   @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto:wght@300;400;500&display=swap');
 
 body {
+    font-family: 'DM Sans', sans-serif;
     font-family: 'Roboto', sans-serif;
-    font-family: 'Roboto Condensed', sans-serif;
 }
 .top {
     background-color: #EFEFEF;
@@ -71,24 +71,48 @@ body {
     padding: 25px;
     font-weight: bold;
 }
-.slider-wrapper {
 
+.slider-wrapper {
     background-color: #f13c6e;
-    padding: 190px 0;
     color: #fff;
+}
+.slider-box {
+   display: flex;
+   justify-content: space-around;
+}
+.box-content {
+    padding: 190px 0;
 }
 .slider-wrapper-text {
     font-size: 14px;
     margin-bottom: 40px;
     line-height: 20px;
 }
+.slider-wrapper-title {
+    font-size: 48px;
+    margin-bottom: 50px;
+    font-weight: 700;
+}
 .slider-wrapper-more {
-    padding: 15px 25px;
+    padding: 10px 70px;
     border: 2px solid #fff;
     color: #fff;
     background-color: #ffffff00;
     border-radius: 20px;
 }
-/* .img-chair {
-   padding-left: 300px;
-} */
+
+.img-chair {
+    padding: 80px 0;
+}
+.circle {
+    background-color: #fff;
+  }
+  
+  .inner-circle {
+    opacity: 0.7;
+  }
+  
+  .outer-circle {
+    opacity: 0.3;
+  }
+  
