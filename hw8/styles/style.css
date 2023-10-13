@@ -63,7 +63,7 @@ body {
     justify-content: center;
 }
 .list-top-item-bottom {
-    margin-left: 19px; 
+    margin-right: 19px; 
 }
 .top-link-bottom {
     color: #333;
@@ -75,10 +75,14 @@ body {
 .slider-wrapper {
     background-color: #f13c6e;
     color: #fff;
+    
 }
 .slider-box {
    display: flex;
    justify-content: space-between;
+   background-image: url(../img/barber-chair-with-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
 .box-content {
     padding: 190px 0;
@@ -101,7 +105,7 @@ body {
     border-radius: 20px;
 }
 
-.img-chair {
+/* .img-chair {
     padding: 80px 0;
     z-index: 2;
     margin-top: 50px;
@@ -139,13 +143,14 @@ body {
     left: -85%;
     border-radius: 50%;
     z-index: 1;
-  }
+  } */
   .main {
     background-color: #EFEFEF;
     padding-bottom: 100px;
   }
 
   .special-offers {
+    padding-bottom: 50px;
     padding-top: 60px;
     color: #000;
     font-size: 24px;
@@ -156,23 +161,22 @@ body {
  
   .hairdressing-chair-block {
     display: flex;
-   justify-content: space-between;
+    justify-content: space-between;
   }
   .hairdressing-chair {
-    margin-top: 20px;
     background-color: #FFF;
-    display: block;
-    width: 255px;
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px 50px;
+    gap: 20px;
   }
-  .restangle {
-    height: 166px;
-    width: 125px;
-    margin: 25px 65px 20px 65px;
- }
+  /* .restangle {
+   /* padding: 20px 0; } */
+
  .norm {
     text-align: center;
-    margin: 0 30px 10px 30px;
+    padding: 10px 0;
  }
  .price {
     text-align: center;
@@ -184,7 +188,7 @@ body {
     color: #fff;
     border-radius: 20px;
     padding: 12px 55px;
-    margin: 10px 63px 10px 62px;
+    /* margin: 10px 63px 10px 62px; */
     background-color: #f13c6e;
  }
  .main-vertical-box {
@@ -195,6 +199,11 @@ body {
     .vertical-box {
     background-color: #f13c6e; 
     display: flex;
+    padding: 35px 40px;
+    flex-grow: 1;
+    align-items: center;
+    flex-basis: 50%;
+    justify-content: space-between;
  }
  .bonuses {
     color: #FFF;
@@ -206,7 +215,7 @@ body {
  .main-vertical-box {
     display: flex;
     justify-content: space-between;
-    margin-top: 100px;
+    gap: 110px;
   }
   .vertical-box {
     background-color: #f13c6e;
@@ -232,9 +241,9 @@ body {
     margin-bottom: 25px;
   }
   
-  .vertical_png {
-    margin-left: 120px;
-  }
+  /* .vertical_png {
+    /* margin-left: 120px; */
+   
   
   .input {
     background-color: #fff;
@@ -245,6 +254,10 @@ body {
     background-color: #f13c6e;
     display: flex;
     padding: 35px 40px;
+    flex-grow: 1;
+    justify-content: space-around;
+    align-items: center;
+    flex-basis: 50%;
   }
   
   .visit-as {
@@ -269,7 +282,7 @@ body {
     border-radius: 30px;
     font-size: 14px;
     font-weight: 400;
-    padding: 9px 53px;
+    padding: 6px 40px;
   }
   
   .vertical-image {
@@ -282,12 +295,11 @@ body {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  gap: 1px;
  }
  .impuls {
   background-color: #FFF;
-  padding: 35px 60px;
-  margin-top: 2px;
-  margin-right: 2px;
+  padding: 40px 75px;
  }
  .footer-color {
   background-color: #FFF;
@@ -298,8 +310,7 @@ body {
  }
 
  .footer-categories {
-  display: block;
-  margin-top: 50px;
+  padding-top: 50px;
   padding-left: 11px;
  }
  .border-footer {
@@ -316,7 +327,7 @@ body {
    
  }
 .list-footer-links-bottom {
-  margin-top: 20px;
+  padding-top: 20px;
 }
  .footer-link-bottom {
   color: #828282;
@@ -344,19 +355,19 @@ body {
   font-weight: 400;
   line-height: normal;
 }
-.image-footer{
-  display: inline-block;
-  margin-top: 20px;
-}
+/* .image-footer{
+  /* display: inline-block; */
+  /* margin-top: 20px; */
 .button-link {
   padding-right: 20px;
 }
 .image-footer-list {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
 }
 .footer-color-gray{
-  margin-top: 25px;
   background: #EFEFEF;
 }
 .rights {
