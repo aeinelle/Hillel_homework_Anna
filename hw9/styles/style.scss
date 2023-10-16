@@ -1,0 +1,135 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto:wght@300;400;500&display=swap');
+
+  $main-color: #34547A;
+  $header-color: #EEEFF1;
+  $font-family: 'Roboto', sans-serif;
+  $base-font-size: 16px;
+  $title-font-size: 32px;
+  $element-color: #F9F9F9;
+  $text-color: #000;
+  $text-font-wight: 400;
+  $text-line-height: 164.063%;
+  $paragraph-main-color: #727272;
+  
+body{
+    font-family: $font-family;
+}
+.header {
+    background-color: #EEEFF1;
+    padding: 80px 0 100px 0;
+}
+.header__navigation{
+    display: flex;
+    gap: 42px;
+    padding-bottom: 140px;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.header__navigation-list-link {
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1.6px;
+    line-height: $text-line-height;
+    color: $text-color;
+    font-family: $font-family;
+    font-size: $base-font-size;
+}
+.homepage {
+   color: $main-color;
+}
+.header_box {
+    padding-bottom: 70px;
+}
+
+.title {
+font-size: 48px;
+font-style: normal;
+font-weight: 500;
+line-height: $text-line-height;
+color: $text-color;
+}
+.paragraph {
+color: $paragraph-main-color;
+font-size: $base-font-size;
+font-style: normal;
+font-weight: $text-font-wight;
+line-height: $text-line-height; 
+}
+.button {
+    padding: 20px 41px;
+    font-size: $base-font-size;
+font-style: normal;
+font-weight: $text-font-wight;
+line-height: $text-line-height; 
+letter-spacing: 1.6px;
+text-transform: uppercase;
+background-color: $main-color;
+color: $element-color;
+}
+.main-section {
+    background-color: $element-color;
+    padding: 70px 0 60px 0;
+}
+.main-section-box {
+    text-align: center;
+}
+.title-main {
+    padding-bottom: 50px;
+    color: $text-color;
+   font-size: $title-font-size;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+}
+.image-line {
+    margin: 60px 0;
+    background-color: $main-color;
+    padding: 100px 0;
+}
+.project {
+    display: flex;
+    justify-content: space-between;
+}
+.list-items {
+    padding-right: 40px;
+    color: $element-color;
+font-size: $base-font-size;
+font-style: normal;
+font-weight: $text-font-wight;
+line-height: $text-line-height; 
+}
+.bold {
+    font-weight: 500;
+    font-size: 21px;
+}
+.main-bottom-section {
+    text-align: center;
+}
+.main-bottom_box {
+    padding-bottom: 57px;
+}
+.video {
+    padding-bottom: 53px;
+}
+.footer {
+    background-color: $main-color;
+}
+.footer-line {
+    padding: 30px 0 10px 0;
+}
+.footer-text {
+  padding-bottom: 20px;  
+  color: $element-color;
+  font-size: 21px;
+  font-weight: 500;
+}
+.slim {
+font-size: 13px;
+font-weight: $text-font-wight;
+line-height: $text-line-height; 
+}

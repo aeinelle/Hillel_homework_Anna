@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto:wght@300;400;500&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.header {
+  background-color: #EEEFF1;
+  padding: 80px 0 100px 0;
+}
+
+.header__navigation {
+  display: flex;
+  gap: 42px;
+  padding-bottom: 140px;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.header__navigation-list-link {
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 1.6px;
+  line-height: 164.063%;
+  color: #000;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+
+.homepage {
+  color: #34547A;
+}
+
+.header_box {
+  padding-bottom: 70px;
+}
+
+.title {
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 164.063%;
+  color: #000;
+}
+
+.paragraph {
+  color: #727272;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 164.063%;
+}
+
+.button {
+  padding: 20px 41px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 164.063%;
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+  background-color: #34547A;
+  color: #F9F9F9;
+}
+
+.main-section {
+  background-color: #F9F9F9;
+  padding: 70px 0 60px 0;
+}
+
+.main-section-box {
+  text-align: center;
+}
+
+.title-main {
+  padding-bottom: 50px;
+  color: #000;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.image-line {
+  margin: 60px 0;
+  background-color: #34547A;
+  padding: 100px 0;
+}
+
+.project {
+  display: flex;
+  justify-content: space-between;
+}
+
+.list-items {
+  padding-right: 40px;
+  color: #F9F9F9;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 164.063%;
+}
+
+.bold {
+  font-weight: 500;
+  font-size: 21px;
+}
+
+.main-bottom-section {
+  text-align: center;
+}
+
+.main-bottom_box {
+  padding-bottom: 57px;
+}
+
+.video {
+  padding-bottom: 53px;
+}
+
+.footer {
+  background-color: #34547A;
+}
+
+.footer-line {
+  padding: 30px 0 10px 0;
+}
+
+.footer-text {
+  padding-bottom: 20px;
+  color: #F9F9F9;
+  font-size: 21px;
+  font-weight: 500;
+}
+
+.slim {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 164.063%;
+}
