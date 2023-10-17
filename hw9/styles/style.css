@@ -8,17 +8,16 @@ body {
   padding: 80px 0 100px 0;
 }
 
-.header__navigation {
-  display: flex;
-  gap: 42px;
-  padding-bottom: 140px;
-}
-
 .container {
   margin: 0 auto;
   max-width: 1200px;
 }
 
+.header__navigation {
+  display: flex;
+  gap: 42px;
+  padding-bottom: 140px;
+}
 .header__navigation-list-link {
   text-transform: uppercase;
   font-weight: 500;
@@ -28,21 +27,30 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
 }
-
-.homepage {
+.header__navigation .homepage {
   color: #34547A;
+  line-height: 164.063%;
 }
 
 .header_box {
   padding-bottom: 70px;
 }
-
-.title {
+.header_box__title {
   font-size: 48px;
+  padding-bottom: 70px;
   font-style: normal;
   font-weight: 500;
-  line-height: 164.063%;
   color: #000;
+}
+.header_box__button {
+  padding: 20px 41px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+  background-color: #34547A;
+  color: #F9F9F9;
 }
 
 .paragraph {
@@ -51,18 +59,6 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: 164.063%;
-}
-
-.button {
-  padding: 20px 41px;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 164.063%;
-  letter-spacing: 1.6px;
-  text-transform: uppercase;
-  background-color: #34547A;
-  color: #F9F9F9;
 }
 
 .main-section {
@@ -102,8 +98,7 @@ body {
   font-weight: 400;
   line-height: 164.063%;
 }
-
-.bold {
+.list-items__bold {
   font-weight: 500;
   font-size: 21px;
 }
@@ -126,16 +121,14 @@ body {
 
 .footer-line {
   padding: 30px 0 10px 0;
-}
-
-.footer-text {
-  padding-bottom: 20px;
   color: #F9F9F9;
+}
+.footer-line__footer-text {
+  padding-bottom: 20px;
   font-size: 21px;
   font-weight: 500;
 }
-
-.slim {
+.footer-line__text-slim {
   font-size: 13px;
   font-weight: 400;
   line-height: 164.063%;
