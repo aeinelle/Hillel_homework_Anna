@@ -1,99 +1,106 @@
 
- @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto:wght@300;400;500&display=swap');
 
-  $main-color: #34547A;
-  $header-color: #EEEFF1;
-  $font-family: 'Roboto', sans-serif;
-  $base-font-size: 16px;
-  $text-font-size: 21px;
-  $title-font-size: 32px;
-  $element-color: #F9F9F9;
-  $text-color: #000;
-  $text-font-wight: 400;
-  $text-bold-font-wight: 500;
-  $text-line-height: 164.063%;
-  $paragraph-main-color: #727272;
-  
-body{
+$main-color: #34547A;
+$header-color: #EEEFF1;
+$font-family: 'Roboto', sans-serif;
+$base-font-size: 16px;
+$text-font-size: 21px;
+$title-font-size: 32px;
+$element-color: #F9F9F9;
+$text-color: #000;
+$text-font-weight: 400;
+$text-bold-font-weight: 500;
+$text-line-height: 164.063%;
+$paragraph-main-color: #727272;
+
+body {
     font-family: $font-family;
 }
+
 .header {
     background-color: #EEEFF1;
-    
 }
-.header-block{
+
+.header-block {
     padding: 80px 0 100px 0;
 }
+
 .container {
     margin: 0 auto;
     max-width: 1200px;
 }
-.header__navigation{
+
+.header__navigation {
     display: flex;
     gap: 42px;
     margin-bottom: 140px;
 
-&-item-link {
-    text-transform: uppercase;
-    font-weight: $text-bold-font-wight;
-    letter-spacing: 1.6px;
-    line-height: $text-line-height;
-    color: $text-color;
-    font-family: $font-family;
-    font-size: $base-font-size;
+    &-item-link {
+        text-transform: uppercase;
+        font-weight: $text-bold-font-weight;
+        letter-spacing: 1.6px;
+        line-height: $text-line-height;
+        color: $text-color;
+        font-family: $font-family;
+        font-size: $base-font-size;
+    }
+
+    .homepage {
+        color: $main-color;
+        line-height: $text-line-height;
+    }
 }
-.homepage {
-   color: $main-color;
-   line-height: $text-line-height;
-}
-}
+
 .top-box {
-    margin-bottom: 70px;
+    padding-bottom: 70px;
 
     &__title {
         font-size: 48px;
-        margin-bottom: 70px;
+        padding-bottom: 70px;
         font-style: normal;
-        font-weight: $text-bold-font-wight;
+        font-weight: $text-bold-font-weight;
         color: $text-color;
     }
 
     &__button {
-        margin-top: 60px;
+        margin: 0; 
         padding: 20px 41px;
         font-size: $base-font-size;
         font-style: normal;
-        font-weight: $text-font-wight;
+        font-weight: $text-font-weight;
         letter-spacing: 1.6px;
         text-transform: uppercase;
         background-color: $main-color;
         color: $element-color;
     }
-
 }
+
 .paragraph {
     color: $paragraph-main-color;
     font-size: $base-font-size;
     font-style: normal;
-    font-weight: $text-font-wight;
+    font-weight: $text-font-weight;
     line-height: $text-line-height;
 }
 
 .main-section {
     background-color: $element-color;
-    padding: 70px 0 60px 0;
+    padding: 70px 0 60px 0; 
 }
+
 .main-section-box {
     text-align: center;
-    padding-bottom: 45px;
+    margin-bottom: 45px; 
 }
+
 .title-main {
-    padding-bottom: 50px;
+    margin-bottom: 50px; 
     color: $text-color;
-   font-size: $title-font-size;
-   font-style: normal;
-   font-weight: $text-bold-font-wight;
-   line-height: normal;
+    font-size: $title-font-size;
+    font-style: normal;
+    font-weight: $text-bold-font-weight;
+    line-height: normal;
 }
 
 .image-line {
@@ -107,49 +114,53 @@ body{
 }
 
 .main__project-item {
-    display: flex; 
-    align-items: center; 
+    display: flex;
+    align-items: center;
     padding-right: 40px;
     color: $element-color;
     font-size: $base-font-size;
     font-style: normal;
-    font-weight: $text-font-wight;
+    font-weight: $text-font-weight;
     line-height: $text-line-height;
 
     .main__project-description__bold {
-        font-weight: $text-bold-font-wight;
+        font-weight: $text-bold-font-weight;
         font-size: $text-font-size;
-       
     }
 
     .main__project-image {
         max-width: 100%;
-        margin-right: 30px; 
+        margin-right: 30px;
     }
 }
 
 .main-bottom-section {
     text-align: center;
     margin: 60px;
+    
 }
+
 .main-bottom_box {
     margin-bottom: 57px;
 }
+
 .footer {
     background-color: $main-color;
 }
+
 .footer-line {
     padding: 30px 0 10px 0;
-    color: $element-color; 
+    color: $element-color;
 
-&__footer-text {
-  padding-bottom: 20px;  
-  font-size:  $text-font-size;
-  font-weight: $text-bold-font-wight;
-}
-&__text-slim {
-font-size: 13px;
-font-weight: $text-font-wight;
-line-height: $text-line-height; 
-}
+    &__footer-text {
+        padding-bottom: 20px;
+        font-size: $text-font-size;
+        font-weight: $text-bold-font-weight;
+    }
+
+    &__text-slim {
+        font-size: 13px;
+        font-weight: $text-font-weight;
+        line-height: $text-line-height;
+    }
 }

@@ -36,17 +36,17 @@ body {
 }
 
 .top-box {
-  margin-bottom: 70px;
+  padding-bottom: 70px;
 }
 .top-box__title {
   font-size: 48px;
-  margin-bottom: 70px;
+  padding-bottom: 70px;
   font-style: normal;
   font-weight: 500;
   color: #000;
 }
 .top-box__button {
-  margin-top: 60px;
+  margin: 0;
   padding: 20px 41px;
   font-size: 16px;
   font-style: normal;
@@ -72,11 +72,11 @@ body {
 
 .main-section-box {
   text-align: center;
-  padding-bottom: 45px;
+  margin-bottom: 45px;
 }
 
 .title-main {
-  padding-bottom: 50px;
+  margin-bottom: 50px;
   color: #000;
   font-size: 32px;
   font-style: normal;
