@@ -1,5 +1,5 @@
 
-  @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto:wght@300;400;500&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto:wght@300;400;500&display=swap');
 
   $main-color: #34547A;
   $header-color: #EEEFF1;
@@ -47,35 +47,38 @@ body{
    line-height: $text-line-height;
 }
 }
-.header_box {
+.top-box {
     margin-bottom: 70px;
 
-&__title {
-font-size: 48px;
-margin-bottom: 70px;
-font-style: normal;
-font-weight: $text-bold-font-wight;
-color: $text-color;
-}
+    &__title {
+        font-size: 48px;
+        margin-bottom: 70px;
+        font-style: normal;
+        font-weight: $text-bold-font-wight;
+        color: $text-color;
+    }
 
-&__button {
-    padding: 20px 41px;
-    font-size: $base-font-size;
-font-style: normal;
-font-weight: $text-font-wight;
-letter-spacing: 1.6px;
-text-transform: uppercase;
-background-color: $main-color;
-color: $element-color;
-}
+    &__button {
+        margin-top: 60px;
+        padding: 20px 41px;
+        font-size: $base-font-size;
+        font-style: normal;
+        font-weight: $text-font-wight;
+        letter-spacing: 1.6px;
+        text-transform: uppercase;
+        background-color: $main-color;
+        color: $element-color;
+    }
+
 }
 .paragraph {
     color: $paragraph-main-color;
     font-size: $base-font-size;
     font-style: normal;
     font-weight: $text-font-wight;
-    line-height: $text-line-height; 
-    }
+    line-height: $text-line-height;
+}
+
 .main-section {
     background-color: $element-color;
     padding: 70px 0 60px 0;
@@ -97,24 +100,34 @@ color: $element-color;
     background-color: $main-color;
     padding: 100px 0;
 }
-.project {
+
+.main__project {
     display: flex;
     justify-content: space-between;
 }
-.list-items {
+
+.main__project-item {
+    display: flex; 
+    align-items: center; 
     padding-right: 40px;
     color: $element-color;
-font-size: $base-font-size;
-font-style: normal;
-font-weight: $text-font-wight;
-line-height: $text-line-height; 
+    font-size: $base-font-size;
+    font-style: normal;
+    font-weight: $text-font-wight;
+    line-height: $text-line-height;
 
-&__bold {
-    font-weight: $text-bold-font-wight;
-    font-size:  $text-font-size;
+    .main__project-description__bold {
+        font-weight: $text-bold-font-wight;
+        font-size: $text-font-size;
+       
+    }
+
+    .main__project-image {
+        max-width: 100%;
+        margin-right: 30px; 
+    }
 }
 
-}
 .main-bottom-section {
     text-align: center;
     margin: 60px;
