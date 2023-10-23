@@ -52,7 +52,7 @@ body {
     }
 }
 
-.top-box {
+.header-box {
     padding-bottom: 70px;
 
     &__title {
@@ -74,33 +74,47 @@ body {
         background-color: $main-color;
         color: $element-color;
     }
+
+    &__paragraph {
+        color: $paragraph-main-color;
+        font-size: $base-font-size;
+        font-style: normal;
+        font-weight: $text-font-weight;
+        line-height: $text-line-height;
+        padding-bottom: 70px;
+        max-width: 550px;
+    }
 }
 
-.paragraph {
-    color: $paragraph-main-color;
-    font-size: $base-font-size;
-    font-style: normal;
-    font-weight: $text-font-weight;
-    line-height: $text-line-height;
-}
 
 .main-section {
     background-color: $element-color;
     padding: 70px 0 60px 0; 
 }
 
-.main-section-box {
+.content {
     text-align: center;
     margin-bottom: 45px; 
-}
+    max-width: 550px;
+    margin: 0 auto;
 
-.title-main {
+&__title {
     margin-bottom: 50px; 
     color: $text-color;
     font-size: $title-font-size;
     font-style: normal;
     font-weight: $text-bold-font-weight;
     line-height: normal;
+}
+&__paragraph {
+    color: $paragraph-main-color;
+        font-size: $base-font-size;
+        font-style: normal;
+        font-weight: $text-font-weight;
+        line-height: $text-line-height;
+        padding-bottom: 70px;
+       
+}
 }
 
 .image-line {
