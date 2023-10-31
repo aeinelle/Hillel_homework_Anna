@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/reset.css" />
+    <link rel="stylesheet" href="./style/style.css" />
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300&display=swap"
+      rel="stylesheet"/> -->
+    <title>Flex-box</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="nav-top top">
+        <div class="container">
+          <ul class="list-top-links">
+            <li class="list-top-item">
+              <a href="#" class="top-link">Delivery</a>
+            </li>
+            <li class="list-top-item">
+              <a href="#" class="top-link">Payment</a>
+            </li>
+            <li class="list-top-item">
+              <a href="#" class="top-link">Reviews</a>
+            </li>
+            <li class="list-top-item">
+              <a href="#" class="top-link">FAQ</a>
+            </li>
+            <li class="list-top-item">
+              <a href="#" class="top-link">Contacts</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="center-section">
+        <div class="container">
+          <div class="center-section-container">
+            <div class="logo-wrapper">
+              <img src="./img/logo.png" alt="logo" class="img-logo" />
+              <span class="logo-name">Beauty</span>
+            </div>
+            <div class="contacts-wrapper">
+              <span class="phone-number">1 (123) 45 67</span>
+              <button class="call-back">Call-back</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="nav-top bottom">
+        <div class="container">
+          <ul class="list-top-links-bottom">
+            <li class="list-top-item-bottom">
+              <a href="#" class="top-link-bottom">Salon</a>
+            </li>
+            <li class="list-top-item-bottom">
+              <a href="#" class="top-link-bottom">Barbershop</a>
+            </li>
+            <li class="list-top-item-bottom">
+              <a href="#" class="top-link-bottom">Manicure</a>
+            </li>
+            <li class="list-top-item-bottom">
+              <a href="#" class="top-link-bottom">Pedicure</a>
+            </li>
+            <li class="list-top-item-bottom">
+              <a href="#" class="top-link-bottom">Massage</a>
+            </li>
+            <li class="list-top-item-bottom">
+              <a href="#" class="top-link-bottom">Furniture</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="slider-wrapper">
+        <div class="container">
+          <div class="slider-box">
+            <div class="box-content">
+              <h1 class="slider-wrapper-title">Super chair</h1>
+              <p class="slider-wrapper-text">
+                The text of the action always reflects the <br />
+                essence, and not just <br />
+                chatter, so be careful
+              </p>
+              <button class="slider-wrapper-more">More</button>
+            </div>         
+              <section class="circle-nav">            
+                <!-- <div class="circle">
+                  <img
+                    src="./img/barber-chair-with-bg.png"
+                    alt="chair-barber"
+                    class="img-chair-barber"
+                  />
+                </div> -->
+              </section>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <div class="container secction-main">
+        <h2 class="special-offers">Special-offers</h2>
+        <div class="hairdressing-chair-block">
+          <div class="hairdressing-chair">
+            <img
+              src="./img/Rectangle 4.png"
+              alt="Rectangle"
+              class="restangle"
+            />
+            <p class="norm">
+              Hairdressing chair "Norm" <br />
+              hydraulic
+            </p>
+            <p class="price">$300</p>
+            <button class="buy">Buy</button>
+          </div>
+          <div class="hairdressing-chair">
+            <img
+              src="./img/Rectangle 4.png"
+              alt="Rectangle"
+              class="restangle"
+            />
+            <p class="norm">
+              Hairdressing chair "Norm" <br />
+              hydraulic
+            </p>
+            <p class="price">$300</p>
+            <button class="buy">Buy</button>
+          </div>
+          <div class="hairdressing-chair">
+            <img
+              src="./img/Rectangle 4.png"
+              alt="Rectangle"
+              class="restangle"
+            />
+            <p class="norm">
+              Hairdressing chair "Norm" <br />
+              hydraulic
+            </p>
+            <p class="price">$300</p>
+            <button class="buy">Buy</button>
+          </div>
+          <div class="hairdressing-chair">
+            <img
+              src="./img/Rectangle 4.png"
+              alt="Rectangle"
+              class="restangle"
+            />
+            <p class="norm">
+              Hairdressing chair "Norm" <br />
+              hydraulic
+            </p>
+            <p class="price">$300</p>
+            <button class="buy">Buy</button>
+          </div>
+        </div>
+      </div>
+      <div class="container main-vertical-box">
+        <div class="vertical-box">
+          <!-- сделать елайн центр -->
+          <!-- флекс гроу -->
+          <div class="vertical-content">
+            <h2 class="card-name">Get bonuses and gifts</h2>
+            <p class="paragraph">
+              Every month we play<br />
+              $1000 for our clients
+            </p>
+            <label for="email" class="label"></label>
+            <input class="input" type="email" id="email" name="email" />
+          </div>
+          <div class="vertical_png">
+            <img src="./img/envelope.png" alt="mail" class="enevelope" />
+          </div>
+        </div>
+        <div class="vertical-item">
+          <div class="content-item">
+            <h2 class="visit-as">Visit us</h2>
+            <p class="visit">
+              Over 300 stores<br />
+              throughout the USA
+            </p>
+            <button class="store-map">Store map</button>
+          </div>
+          <div class="vertical-image">
+            <img src="./img/car.png" alt="auto" class="image-horizontal" />
+          </div>
+        </div>
+      </div>
+      <div class="container box-impuls">
+        <div class="flex-impuls">
+          <div class="impuls">
+            <img src="./img/image.png" alt="img" class="image-impuls" />
+          </div>
+          <div class="impuls">
+            <img src="./img/image.png" alt="img" class="image-impuls" />
+          </div>
+          <div class="impuls">
+            <img src="./img/image.png" alt="img" class="image-impuls" />
+          </div>
+          <div class="impuls">
+            <img src="./img/image.png" alt="img" class="image-impuls" />
+          </div>
+          <div class="impuls">
+            <img src="./img/image.png" alt="img" class="image-impuls" />
+          </div>
+          <div class="impuls">
+            <img src="./img/image.png" alt="img" class="image-impuls" />
+          </div>
+          <div class="impuls">
+            <img src="./img/image.png" alt="img" class="image-impuls" />
+          </div>
+          <div class="impuls">
+            <img src="./img/image.png" alt="img" class="image-impuls" />
+          </div>
+          <div class="impuls">
+            <img src="./img/image.png" alt="img" class="image-impuls" />
+          </div>
+          <div class="impuls">
+            <img src="./img/image.png" alt="img" class="image-impuls" />
+          </div>
+          <div class="impuls">
+            <img src="./img/image.png" alt="img" class="image-impuls" />
+          </div>
+          <div class="impuls">
+            <img src="./img/image.png" alt="img" class="image-impuls" />
+          </div>
+        </div>
+      </div>
+      <div class="container secction-main">
+        <h2 class="special-offers">Have you recently viewed</h2>
+        <div class="hairdressing-chair-block">
+          <div class="hairdressing-chair">
+            <img
+              src="./img/Rectangle 4.png"
+              alt="Rectangle"
+              class="restangle"
+            />
+            <p class="norm">
+              Hairdressing chair "Norm" <br />
+              hydraulic
+            </p>
+            <p class="price">$300</p>
+            <button class="buy">Buy</button>
+          </div>
+          <div class="hairdressing-chair">
+            <img
+              src="./img/Rectangle 4.png"
+              alt="Rectangle"
+              class="restangle"
+            />
+            <p class="norm">
+              Hairdressing chair "Norm" <br />
+              hydraulic
+            </p>
+            <p class="price">$300</p>
+            <button class="buy">Buy</button>
+          </div>
+          <div class="hairdressing-chair">
+            <img
+              src="./img/Rectangle 4.png"
+              alt="Rectangle"
+              class="restangle"
+            />
+            <p class="norm">
+              Hairdressing chair "Norm" <br />
+              hydraulic
+            </p>
+            <p class="price">$300</p>
+            <button class="buy">Buy</button>
+          </div>
+          <div class="hairdressing-chair">
+            <img
+              src="./img/Rectangle 4.png"
+              alt="Rectangle"
+              class="restangle"
+            />
+            <p class="norm">
+              Hairdressing chair "Norm" <br />
+              hydraulic
+            </p>
+            <p class="price">$300</p>
+            <button class="buy">Buy</button>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="footer-color">
+        <div class="container footer-box">
+          <div class="footer-list">
+            <div class="footer-categories">
+              <h4 class="Popular-categories">
+                Popular <br />
+                categories
+              </h4>
+              <div class="border-footer"></div>
+              <ul class="list-footer-links-bottom">
+                <li class="list-footer-item-bottom">
+                  <a href="#" class="footer-link-bottom">Нozzles</a>
+                </li>
+                <li class="list-footer-item-bottom">
+                  <a href="#" class="footer-link-bottom">Tools</a>
+                </li>
+                <li class="list-footer-item-bottom">
+                  <a href="#" class="footer-link-bottom">Gel polishes</a>
+                </li>
+                <li class="list-footer-item-bottom">
+                  <a href="#" class="footer-link-bottom">Design</a>
+                </li>
+                <li class="list-footer-item-bottom">
+                  <a href="#" class="footer-link-bottom">Building</a>
+                </li>
+                <li class="list-footer-item-bottom">
+                  <a href="#" class="footer-link-bottom">Equipment</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer-categories">
+              <h4 class="Popular-categories">
+                Popular <br />
+                categories
+              </h4>
+              <div class="border-footer"></div>
+              <ul class="list-footer-links-bottom">
+                <li class="list-footer-item-bottom">
+                  <a href="#" class="footer-link-bottom">Нozzles</a>
+                </li>
+                <li class="list-footer-item-bottom">
+                  <a href="#" class="footer-link-bottom">Tools</a>
+                </li>
+                <li class="list-footer-item-bottom">
+                  <a href="#" class="footer-link-bottom">Gel polishes</a>
+                </li>
+                <li class="list-footer-item-bottom">
+                  <a href="#" class="footer-link-bottom">Design</a>
+                </li>
+                <li class="list-footer-item-bottom">
+                  <a href="#" class="footer-link-bottom">Building</a>
+                </li>
+                <li class="list-footer-item-bottom">
+                  <a href="#" class="footer-link-bottom">Equipment</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer-categories">
+              <h4 class="Popular-categories">
+                Popular <br />
+                categories
+              </h4>
+              <div class="border-footer"></div>
+              <ul class="list-footer-links-bottom">
+                <li class="list-footer-item-bottom">
+                  <a href="#" class="footer-link-bottom">Нozzles</a>
+                </li>
+                <li class="list-footer-item-bottom">
+                  <a href="#" class="footer-link-bottom">Tools</a>
+                </li>
+                <li class="list-footer-item-bottom">
+                  <a href="#" class="footer-link-bottom">Gel polishes</a>
+                </li>
+                <li class="list-footer-item-bottom">
+                  <a href="#" class="footer-link-bottom">Design</a>
+                </li>
+                <li class="list-footer-item-bottom">
+                  <a href="#" class="footer-link-bottom">Building</a>
+                </li>
+                <li class="list-footer-item-bottom">
+                  <a href="#" class="footer-link-bottom">Equipment</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer-categories">
+              <h4 class="Popular-categories">
+                Popular <br />
+                categories
+              </h4>
+              <div class="border-footer"></div>
+              <ul class="list-footer-links-bottom">
+                <li class="list-footer-item-bottom">
+                  <a href="#" class="footer-link-bottom">Нozzles</a>
+                </li>
+                <li class="list-footer-item-bottom">
+                  <a href="#" class="footer-link-bottom">Tools</a>
+                </li>
+                <li class="list-footer-item-bottom">
+                  <a href="#" class="footer-link-bottom">Gel polishes</a>
+                </li>
+                <li class="list-footer-item-bottom">
+                  <a href="#" class="footer-link-bottom">Design</a>
+                </li>
+                <li class="list-footer-item-bottom">
+                  <a href="#" class="footer-link-bottom">Building</a>
+                </li>
+                <li class="list-footer-item-bottom">
+                  <a href="#" class="footer-link-bottom">Equipment</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="border-footer second"></div>
+        <div class="container bottom-footer-list">
+          <div class="image-footer-list">
+            <div class="image-footer">
+              <a href="https://www.youtube.com." class="button-link">
+                <img src="./img/groupy.png" alt="youtube" />
+              </a>
+              <a href="https://www.facebook.com" class="button-link">
+                <img src="./img/groupf.png" alt="youtube" />
+              </a>
+              <a href="https://www.instagram.com" class="button-link">
+                <img src="./img/groupi.png" alt="youtube" />
+              </a>
+            </div>
+            <div class="group-item-footer">
+              <div class="contacts-wrapper">
+                <span class="phonenumber">1 (213) 123-45-67</span>
+                <button class="callback">Callback</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-color-gray">
+        <div class="container footer-gray">
+            <div class="rights">
+                <p class="privacy rights-reserved">
+                    Best Store (c) 2019 All rights reserved. Online store of equipment for beauty salons
+                </p>
+                <p class="privacy policy">
+                    Privacy Policy
+                </p>
+            </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
