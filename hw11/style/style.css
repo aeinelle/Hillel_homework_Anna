@@ -1,313 +1,282 @@
 
-  @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto:wght@300;400;500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto:wght@300;400;500&display=swap");
 
-  body {
-    font-family: 'DM Sans', sans-serif;
-    font-family: 'Roboto', sans-serif;
+body {
+  font-family: "DM Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .top {
-    background-color: #EFEFEF;
+  background-color: #efefef;
 }
 .container {
-    max-width: 1280px;
-    margin: 0 auto;
+  max-width: 1280px;
+  margin: 0 auto;
 }
 
-@media screen and (max-width: 1280px) { 
-    .list-top-links {
-      display: flex;
-      flex-wrap: wrap;
-    }
-    .Popular-categories {
-      display: flex;
-      flex-wrap: wrap;
-    }
-    .hairdressing-chair-block {
-      display: flex;
-      flex-wrap: wrap;
-    }
-    .main-vertical-box {
-      display: flex;
-      flex-wrap: wrap;
-     }
-     .footer-categories {
-      display: flex;
-      flex-wrap: wrap;
-     }
-     .list-footer-item-bottom {
-      display: flex;
-      flex-wrap: wrap;
-     }
-}
-  
+
 .list-top-links {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .top-link {
-    color: #333;
-    display: block;
-    padding: 15px;
+  color: #333;
+  display: block;
+  padding: 15px;
 }
 .top-link:hover {
-    background-color: #8f8f8f;
+  background-color: #8f8f8f;
 }
 
 .center-section-container {
-    padding: 20px 0;
-    display: flex;
-    justify-content: space-between;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
 }
 .logo-name {
-    text-transform: uppercase;
-    color: #f13c6e;
-    font-size: 36px;
-    font-weight: 700;
-    letter-spacing: 3.6px;
+  text-transform: uppercase;
+  color: #f13c6e;
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 3.6px;
 }
 .img-logo {
-    margin-right: 20px;
+  margin-right: 20px;
 }
 
 .logo-wrapper {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 .call-back {
-    border: 1px solid #f13c6e;
-    border-radius: 20px;
-    padding: 15px 25px;
-    margin-left: 40px;
-    margin-top: 20px;
-    background-color: #fff;
+  border: 1px solid #f13c6e;
+  border-radius: 20px;
+  padding: 15px 25px;
+  margin-left: 40px;
+  margin-top: 20px;
+  background-color: #fff;
 }
 .bottom {
-    background-color: #FFF;
-    border-top: 2px solid #EFEFEF;
+  background-color: #fff;
+  border-top: 2px solid #efefef;
 }
 
 .list-top-links-bottom {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .list-top-item-bottom {
-    margin-right: 19px; 
+  margin-right: 19px;
 }
 
 .top-link-bottom {
-    color: #333;
-    display: block;
-    padding: 25px;
-    font-weight: bold;
+  color: #333;
+  display: block;
+  padding: 25px;
+  font-weight: bold;
 }
 
 .slider-wrapper {
-    background-color: #f13c6e;
-    color: #fff;
-    
+  background-color: #f13c6e;
+  color: #fff;
 }
 .slider-box {
-   display: flex;
-   justify-content: space-between;
-   background-image: url(../img/barber-chair-with-bg.png);
-    background-repeat: no-repeat;
-    background-position: right;
+  display: flex;
+  justify-content: space-between;
+  background-image: url(../img/barber-chair-with-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
 }
 .box-content {
-    padding: 190px 0;
+  padding: 190px 0;
 }
 .slider-wrapper-text {
-    font-size: 14px;
-    margin-bottom: 40px;
-    line-height: 20px;
+  font-size: 14px;
+  margin-bottom: 40px;
+  line-height: 20px;
 }
 .slider-wrapper-title {
-    font-size: 48px;
-    margin-bottom: 50px;
-    font-weight: 700;
+  font-size: 48px;
+  margin-bottom: 50px;
+  font-weight: 700;
 }
 .slider-wrapper-more {
-    padding: 10px 70px;
-    border: 2px solid #fff;
-    color: #fff;
-    background-color: #ffffff00;
-    border-radius: 20px;
+  padding: 10px 70px;
+  border: 2px solid #fff;
+  color: #fff;
+  background-color: #ffffff00;
+  border-radius: 20px;
 }
 
+.main {
+  background-color: #efefef;
+  padding-bottom: 100px;
+}
 
-  .main {
-    background-color: #EFEFEF;
-    padding-bottom: 100px;
-  }
+.special-offers {
+  padding-bottom: 50px;
+  padding-top: 60px;
+  color: #000;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+}
 
-  .special-offers {
-    padding-bottom: 50px;
-    padding-top: 60px;
-    color: #000;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: bold;
-    line-height: normal;
-  }
- 
-  .hairdressing-chair-block {
-    display: flex;
-    justify-content: space-between;
-  }
-  .hairdressing-chair {
-    background-color: #FFF;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 25px 50px;
-    gap: 20px;
-  }
-  
+.hairdressing-chair-block {
+  display: flex;
+  justify-content: space-between;
+}
+.hairdressing-chair {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px 50px;
+  gap: 20px;
+}
 
- .norm {
-    text-align: center;
-    padding: 10px 0;
- }
- .price {
-    text-align: center;
-    font-weight: bold;
-    font-size: 21px;
-    letter-spacing: 1.05px;
- }
- .buy {
-    color: #fff;
-    border-radius: 20px;
-    padding: 12px 55px;
-    /* margin: 10px 63px 10px 62px; */
-    background-color: #f13c6e;
- }
- .main-vertical-box {
-     margin-top: 100px;
-     display: flex;
-     justify-content: space-between;
-    }
-    .vertical-box {
-    background-color: #f13c6e; 
-    display: flex;
-    padding: 35px 40px;
-    flex-grow: 1;
-    align-items: center;
-    flex-basis: 50%;
-    justify-content: space-between;
- }
- .bonuses {
-    color: #FFF;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
- }
- .main-vertical-box {
-    display: flex;
-    justify-content: space-between;
-    gap: 110px;
-  }
-  .vertical-box {
-    background-color: #f13c6e;
-    display: flex;
-    padding: 35px 40px;
-  }
-  
-  .card-name {
-    color: #fff;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    margin-bottom: 25px;
-  }
-  
-  .paragraph {
-    color: #fff;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 140.625%;
-    margin-bottom: 25px;
-  }
-  
-   
-  
-  .input {
-    background-color: #fff;
-    border-radius: 20px;
-  }
-  
-  .vertical-item {
-    background-color: #f13c6e;
-    display: flex;
-    padding: 35px 40px;
-    flex-grow: 1;
-    justify-content: space-around;
-    align-items: center;
-    flex-basis: 50%;
-  }
-  
-  .visit-as {
-    color: #fff;
-    font-size: 18px;
-    font-weight: 700;
-    margin-bottom: 25px;
-  }
-  
-  .visit {
-    color: #fff;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 140.625%;
-    margin-bottom: 25px;
-  }
-  
-  .store-map {
-    color: #fff;
-    background-color: #f13c6e;
-    border: 2px solid #fff;
-    border-radius: 30px;
-    font-size: 14px;
-    font-weight: 400;
-    padding: 6px 40px;
-  }
-  
-  .vertical-image {
-    margin-left: 120px;
-  }
- .box-impuls {
+.norm {
+  text-align: center;
+  padding: 10px 0;
+}
+.price {
+  text-align: center;
+  font-weight: bold;
+  font-size: 21px;
+  letter-spacing: 1.05px;
+}
+.buy {
+  color: #fff;
+  border-radius: 20px;
+  padding: 12px 55px;
+  /* margin: 10px 63px 10px 62px; */
+  background-color: #f13c6e;
+}
+.main-vertical-box {
   margin-top: 100px;
- }
- .flex-impuls{
+  display: flex;
+  justify-content: space-between;
+}
+.vertical-box {
+  background-color: #f13c6e;
+  display: flex;
+  padding: 35px 40px;
+  flex-grow: 1;
+  align-items: center;
+  flex-basis: 50%;
+  justify-content: space-between;
+}
+.bonuses {
+  color: #fff;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.main-vertical-box {
+  display: flex;
+  justify-content: space-between;
+  gap: 110px;
+}
+.vertical-box {
+  background-color: #f13c6e;
+  display: flex;
+  padding: 35px 40px;
+}
+
+.card-name {
+  color: #fff;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 25px;
+}
+
+.paragraph {
+  color: #fff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140.625%;
+  margin-bottom: 25px;
+}
+
+.input {
+  background-color: #fff;
+  border-radius: 20px;
+}
+
+.vertical-item {
+  background-color: #f13c6e;
+  display: flex;
+  padding: 35px 40px;
+  flex-grow: 1;
+  justify-content: space-around;
+  align-items: center;
+  flex-basis: 50%;
+}
+
+.visit-as {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+.visit {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 140.625%;
+  margin-bottom: 25px;
+}
+
+.store-map {
+  color: #fff;
+  background-color: #f13c6e;
+  border: 2px solid #fff;
+  border-radius: 30px;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 6px 40px;
+}
+
+.vertical-image {
+  margin-left: 120px;
+}
+.box-impuls {
+  margin-top: 100px;
+}
+.flex-impuls {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   gap: 1px;
- }
- .impuls {
-  background-color: #FFF;
+}
+.impuls {
+  background-color: #fff;
   padding: 40px 75px;
- }
- .footer-color {
-  background-color: #FFF;
- }
- .footer-list {
+}
+.footer-color {
+  background-color: #fff;
+}
+.footer-list {
   display: flex;
   justify-content: space-between;
- }
+}
 
- .footer-categories {
+.footer-categories {
   padding-top: 50px;
   padding-left: 11px;
- }
- .border-footer {
-  border-bottom: 2px solid #EFEFEF;
- }
- .Popular-categories {
+}
+.border-footer {
+  border-bottom: 2px solid #efefef;
+}
+.Popular-categories {
   color: #000;
   font-size: 16px;
   font-style: normal;
@@ -315,22 +284,21 @@
   line-height: 140.625%;
   padding-bottom: 20px;
   padding-right: 224px;
-   
- }
+}
 .list-footer-links-bottom {
   padding-top: 20px;
 }
- .footer-link-bottom {
+.footer-link-bottom {
   color: #828282;
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
-  line-height: 28px; 
- }
- .second {
+  line-height: 28px;
+}
+.second {
   margin-top: 50px;
- }
- .callback {
+}
+.callback {
   border: 1px solid #f13c6e;
   border-radius: 20px;
   padding: 10px 40px;
@@ -356,12 +324,12 @@
   align-items: center;
   padding: 20px 0;
 }
-.footer-color-gray{
-  background: #EFEFEF;
+.footer-color-gray {
+  background: #efefef;
 }
 .rights {
- display: flex;
- justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 .privacy {
   padding-top: 25px;
@@ -372,4 +340,185 @@
   font-weight: 400;
   line-height: normal;
 }
+
+/* Navigation */
+
+
+@media screen and (max-width: 1280px) {
   
+  .logo-wrapper {
+    padding-left:20px;
+  }
+
+  .contacts-wrapper {
+    padding-right: 15px;
+  }
+ 
+  
+}
+
+@media screen and (max-width: 768px) {
+  .list-top-links-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+ 
+}
+
+
+@media screen and (max-width: 550px) {
+  .center-section-container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  
+}
+
+@media screen and (max-width: 480px) {
+  .list-top-links {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* slider-wrapper */
+
+@media screen and (max-width: 1280px) {
+  .box-content {
+    padding-left: 20px;
+  }
+  
+}
+
+@media screen and (max-width: 1000px) {
+  .slider-box {
+    background-image: url(../img/barber-chair.png);
+    background-position: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .slider-box {
+    background-image: url(../img/barber-chair.png);
+    background-position: right;
+  }
+ 
+}
+@media screen and (max-width: 480px) {
+  .slider-box {
+    background-image: none;
+  }
+ 
+}
+
+/* MAIN  */
+
+@media screen and (max-width: 1280px) {
+  .special-offers {
+    text-align: center;
+    padding-left: 20px;
+  }
+
+  .Popular-categories {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .hairdressing-chair-block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .hairdressing-chair {
+    margin-top: 10px;
+    margin-left: 10px;
+    
+  }
+  .main-vertical-box {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 100px 20px auto 20px;
+  }
+  
+}
+
+
+@media screen and (max-width: 768px) {
+  .vertical-box,
+  .vertical-item{
+    flex-direction: column;
+  }
+  
+  .vertical-image {
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+  .hairdressing-chair-block {
+    justify-content: center;
+  }
+
+  .hairdressing-chair {
+    margin-bottom: 10px;
+  }
+}
+
+/* FOOTER  */
+@media screen and (max-width: 1280px) {
+  .footer-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .list-footer-item-bottom {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .bottom-footer-list {
+    padding-left: 20px;
+  }
+
+  .footer-categories {
+    padding: 20px;
+  }
+
+  .footer-gray {
+    padding-left: 20px;
+  }
+
+  .privacy {
+    padding-right: 15px;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .image-footer-list {
+    flex-wrap: wrap;
+  }
+
+  .footer-gray {
+    flex-wrap: wrap;
+  }
+
+ 
+}
+@media screen and (max-width: 480px) {
+  .footer-list {
+    justify-content: center;
+  }
+  
+  .Popular-categories {
+    padding-right: 100px;
+  }
+
+  .image-footer {
+    padding-left: 50px;
+  }
+
+  .callback {
+    padding: 20px;
+  }
+
+}
