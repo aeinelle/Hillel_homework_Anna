@@ -10,18 +10,40 @@
     background-color: #EFEFEF;
 }
 .container {
-    max-width: 1200px;
+    max-width: 1280px;
     margin: 0 auto;
 }
 
+@media screen and (max-width: 1280px) { 
+    .list-top-links {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .Popular-categories {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .hairdressing-chair-block {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .main-vertical-box {
+      display: flex;
+      flex-wrap: wrap;
+     }
+     .footer-categories {
+      display: flex;
+      flex-wrap: wrap;
+     }
+     .list-footer-item-bottom {
+      display: flex;
+      flex-wrap: wrap;
+     }
+}
+  
 .list-top-links {
     display: flex;
     justify-content: center;
-}
-
-.list-top-links {
-flex-wrap: wrap;
-justify-content: space-around;
 }
 
 .top-link {
@@ -48,7 +70,7 @@ justify-content: space-around;
 .img-logo {
     margin-right: 20px;
 }
-/* @media screen and (max-width: 400px) { */
+
 .logo-wrapper {
     display: flex;
     align-items: center;
@@ -65,7 +87,7 @@ justify-content: space-around;
     background-color: #FFF;
     border-top: 2px solid #EFEFEF;
 }
-/* @media screen and (max-width: 750px) { */
+
 .list-top-links-bottom {
     display: flex;
     justify-content: center;
